@@ -1,0 +1,74 @@
+h1{
+    color:rgb(170, 37, 37);
+  /*margin-left: 200px;
+  
+   margin-right: 200px;
+   */
+   padding-right: 50px;
+   
+}
+.header *{
+    border:solid;
+}
+.header{
+    background-color:rgb(121, 121, 121);
+    display:flex;
+    justify-content: space-between ;
+
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+
+   justify-content: center;
+}
+
+
+body{
+    background-color: #fedcba;
+    background-image: url("pirate.png");
+    background-size: 100% 200%;
+}
+
+.menu{
+    justify-content: space-evenly;
+    margin-right: 300px;
+}
+
+.menu a{
+    margin-left: 30px;
+}
+
+a:link{
+    color: honeydew;
+}
+
+a:visited{
+    color: white;
+
+}
+.item{
+position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity:0.11
+}
